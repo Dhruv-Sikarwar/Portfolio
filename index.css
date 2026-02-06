@@ -243,6 +243,7 @@ hr {
 }
 .projects1{
     display: flex;
+    width:20%;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
@@ -256,12 +257,19 @@ hr {
 .projects1 a{
     text-decoration: none;
     color: black;
+    text-align: center;
 }
 .images-port{
+
     border-radius: 100px;
-    position: relative;
-    left:20px;
+    justify-content: center;
+    width: 150px;
+    height: 100px;
+    object-fit: contain;   /* or cover */
+    display: block;
+    margin: 0 auto;
 }
+
 .images-port1
 {
     background-color: grey;

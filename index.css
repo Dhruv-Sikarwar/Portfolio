@@ -281,17 +281,11 @@ hr {
     font-weight: bolder;
     font-size: large;
     color: whitesmoke;
-    width: 200px;              
-    height: 100px;             
-    align-items: center;       
-    box-sizing: border-box;
-    transition: all 0.3s ease; 
 }
 .images-port1:hover
 {
     color: black;
     font-size: larger;
-    width:fixed;
 }
 .images-port2
 {
